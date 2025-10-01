@@ -1,0 +1,21 @@
+{
+  "name": "top-wheres-waldo",
+  "version": "0.0.1",
+  "private": true,
+  "description": "A web game where you have to find characters in a scene",
+  "license": "MIT",
+  "author": "Ajay Karthikesan",
+  "type": "module",
+  "workspaces": [
+    "src/frontend",
+    "src/backend"
+  ],
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@eslint/json": "^0.13.2",
+    "@eslint/markdown": "^7.3.0",
+    "eslint": "^9.36.0",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.6.2"
+  }
+}
